@@ -1,5 +1,5 @@
 import stack
-
+# The stacks are particularly good at reversing things!
 # first stacks is the module and second is the class
 s = stack.Stack()
 
