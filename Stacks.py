@@ -8,11 +8,13 @@ class Stack:
         self.stack = []
 
         # checking for empty stack
+
     def is_empty(self):
         return len(self.stack) == 0
 
         # Push
-    def push(self , item):
+
+    def push(self, item):
         self.stack.append(item)
 
     def pop(self):
@@ -27,6 +29,7 @@ class Stack:
     def __str__(self):
         return str(self.stack)
 
+
 if __name__ == "__main__":
     # testing
     s = Stack()
@@ -35,7 +38,7 @@ if __name__ == "__main__":
 
     # populate the stack
     for i in range(20):
-        s.push(i+1)
+        s.push(i + 1)
 
     print(s)
 
@@ -47,4 +50,3 @@ if __name__ == "__main__":
     print("here we are poping:")
     print(s.pop())
     print(s)
-
